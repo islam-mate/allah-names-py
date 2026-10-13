@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "allah-names"
+version = "1.0.0"
+authors = [
+    { name = "Islamic Tech Community", email = "dev@islamictech.org" },
+]
+description = "The 99 Beautiful Names of Allah with transliteration, Arabic explanation, and English meanings."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Religion",
+]
+dependencies = []
+
+[tool.setuptools.package-data]
+allah_names = ["*.json"]
